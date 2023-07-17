@@ -147,10 +147,11 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: transform 1s;
 }
 
 .card:hover {
-    transform: rotate(90deg);
+    transform: rotate(360deg) scale(1.5);
 }
 
 .card img {
