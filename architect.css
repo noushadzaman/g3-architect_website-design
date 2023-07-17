@@ -130,6 +130,14 @@ main {
     margin-bottom: 24px;
 }
 
+
+
+.facts {
+    margin-top: 130px;
+    margin-bottom: 180px;
+}
+
+
 .card {
     width: 241.831px;
     height: 241.831px;
@@ -155,10 +163,27 @@ main {
     gap: 125px;
     margin-top: 100px;
     justify-content: space-around;
+    align-items: center;
 
 }
-.card-stats{
+
+.card-stats {
     font-size: 45px;
+}
+
+.sponsors {
+    text-align: center;
+}
+
+.sponsor-img-container {
+    display: flex;
+    margin-top: 50px;
+    gap: 155px;
+    align-items: center;
+    justify-content: center;
+}
+.sponsor-img-container img{
+    width: 165px;
 }
 
 @media screen and (max-width: 576px) {
@@ -166,8 +191,18 @@ main {
         padding: 20px;
     }
 
-    nav {
+    nav,
+    .teams-container,
+    .facts-card-container,
+    .sponsor-img-container {
         flex-direction: column;
+    }
+    .sponsor-img-container {
+        gap: 25px;
+    }
+
+    .facts-card-container {
+        gap: 40px;
     }
 
     .teams-container {
