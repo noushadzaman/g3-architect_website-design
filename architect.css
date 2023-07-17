@@ -324,8 +324,10 @@ footer {
     }
 
     .feature-img {
-        width: 500px;
+        width: 100%;
+        height: 100%;
     }
+
     .ten-years-badge {
         width: 342px;
         padding: 45px;
@@ -335,7 +337,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
-    
+
 
 }
 
@@ -386,6 +388,7 @@ footer {
         margin-left: 80px;
         margin-right: 80px;
     }
+
     .ten-years-badge {
         width: 342px;
         padding: 45px;
@@ -394,5 +397,10 @@ footer {
         border-radius: 8px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .feature-img {
+        width: 100%;
+        height: 100%;
     }
 }
