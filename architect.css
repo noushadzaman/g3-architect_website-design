@@ -156,6 +156,7 @@ main {
     justify-content: center;
     text-align: center;
     transition: transform 1s;
+    cursor: pointer;
 }
 
 .card:hover {
@@ -251,6 +252,7 @@ main {
     margin-top: -100px;
     border-radius: 8px;
     margin-left: -92px;
+    cursor: pointer;
 }
 
 .ten-years-badge h2 {
