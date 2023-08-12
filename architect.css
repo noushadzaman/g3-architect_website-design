@@ -300,7 +300,7 @@ footer {
     }
 
     .sponsor-img-container {
-        gap: 25px;
+        gap: 50px;
     }
 
     .facts-card-container {
@@ -313,6 +313,10 @@ footer {
 
     .teams-img-container {
         grid-template-columns: 1fr;
+    }
+    .facts{
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .teams-content {
@@ -381,7 +385,7 @@ footer {
     }
 
     .facts {
-        padding-left: 30px;
+        padding-left: 100px;
     }
 
     .feature-card-container {
