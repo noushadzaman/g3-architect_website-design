@@ -31,6 +31,11 @@ nav li {
     margin-right: 30px;
     font-weight: 500;
     font-size: 1rem;
+    text-decoration: none;
+}
+nav li a{
+    color: #727272;
+    text-decoration: none;
 }
 
 
@@ -352,6 +357,7 @@ footer {
 
     nav {
         flex-direction: column;
+        gap: 20px;
     }
 
     .sponsor-img-container {
