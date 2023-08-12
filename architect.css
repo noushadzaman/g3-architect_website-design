@@ -37,6 +37,9 @@ nav li a{
     color: #727272;
     text-decoration: none;
 }
+nav li a:hover{
+    color: #FF900E;
+}
 
 
 
